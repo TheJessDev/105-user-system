@@ -1,0 +1,105 @@
+/*alert*/
+.alert-error{
+    background-color: rgb(246, 134, 134);
+    border: 1px solid rgb(181, 3, 3);
+}
+
+body{
+    background-color: #E9E9F2;
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 55px;
+    color:#636AF2;
+}
+
+header, h2{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+header{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px; 
+}
+
+h2{
+    font-size: 40px;
+    color: #636AF2;
+    margin-bottom: 20px;
+}
+
+h2, body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+a{
+    display:inline-block;
+    background-color:#2F3273;
+    color: #f2f2f2;
+    font-size: 18px;
+    margin: 3px 32px 3px 32px; 
+    text-decoration: none;  
+    width: 125px;
+    height: 25px;
+    padding-top: 5px;
+}
+a:hover{
+    background-color: #0D0D0D;
+}
+
+p{
+    line-height: 2px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-left: 280px;
+    font-size: 25px;
+    color: #2F3273;
+
+}
+
+input{
+    border-radius: 8px;
+    height: 40px;
+    width:300px;
+    border-color: #636AF2;
+    background-color: #f2f2f2;
+}
+
+#selPayment{
+    border-radius: 8px;
+    border-color: #636AF2;
+    height: 50px;
+    width:300px;
+    margin-top: 5px;
+    font-size: 22px;  
+    padding-left: 10px;
+    color: #2F3273;
+}
+
+input#selColor{
+    height: 55px;
+    width: 310px;
+    border-radius: 8px;
+} 
+
+.btn{
+    margin-top: 40px;
+    margin-left: 90px;
+    border-radius: 8px;
+    height: 60px;
+    width:200px;
+    font-size: 25px;
+    background-color: #636AF2;
+    color: #f2f2f2;
+}
+.btn:hover{
+    background-color: #0D0D0D;
+}
+
+

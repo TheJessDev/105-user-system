@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/mystyle.css">
 
-    <title>105</title>
+    <title>User Registration</title>
 </head>
 
 <!---api.jquery.com-->
 
 <body>
     <header>
-        <h1>My awesome users registration system</h1>
+        <h1>My Awesome Users Registration System</h1>
 
         <nav class="menu">
             <a href="index.html">Home</a>
@@ -23,38 +23,42 @@
     </header>
 
     <main>  <!---create inputs to add users--->
-        <h2>Add new user</h2>
+        <h2>Add New User</h2>
+        
+        <div class="grid-container" class="form" id="form">
+            
 
-        <div class="form" id="form">
-            <div>
-                <p>Email*</p>
-                <input type="text" id="txtEmail">
-            </div>
-            <div>
-                <p>Password*</p>
-                <input type="password" id="txtPassword">
-            </div>
-            <div>
+            <div class="grid-child-1" class="first-name">
                 <p>First name*</p>
                 <input type="text" id="txtFirst">
             </div>
-            <div>
+            <div class="grid-child-2" class="last-name-container">
                 <p>Last name*</p>
                 <input type="text" id="txtLast">
             </div>
-            <div>
+            <div class="grid-child-1" class="email">
+                <p>Email*</p>
+                <input type="text" id="txtEmail">
+            </div>
+            <div class="grid-child-2" class="password">
+                <p>Create password*</p>
+                <input type="password" id="txtPassword">
+            </div>
+
+            
+            <div class="grid-child-1" class="age">
                 <p>Age</p>
                 <input type="text" id="txtAge">
             </div>
-            <div>
+            <div class="grid-child-2"  class="gender">
                 <p>Gender</p>
                 <input type="text" id="txtGender">
             </div>
-            <div>
+            <div class="grid-child-1" class="phone">
                 <p>Phone</p>
                 <input type="text" id="txtPhone">
             </div>
-            <div>
+            <div class="payment">
                 <p>Payment*</p>
                 <select id="selPayment">
                     <option value="" selected disabled>--Choose method--</option>
@@ -63,14 +67,13 @@
                     <option value="paypal">Paypal</option>
                 </select>
             </div>
-            <div>
+
+            <div class="color">
                 <p>Color</p>
                 <input type="color" id="selColor">
             </div>
-            <br>
-
-           
-            <button id="btnAdd">Add</button>
+        
+            <button  class="btn" id="btnAdd">Add User</button>
             
 
         </div>  
