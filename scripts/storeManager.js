@@ -1,4 +1,4 @@
-//console.log("store manager");
+console.log("store manager");
 
 //saving to localStorage
 function saveUser(user){
@@ -12,14 +12,14 @@ function saveUser(user){
 
 function readUsers(){
     let users = localStorage.getItem("users"); // this fn GETS elements FROM localStorage
-    console.log(users); //this is a string
-    if(!users){ // NOT users? then...
+    //console.log(users); //this is a string
+    if( ! users){ // NOT users? then...
         // localStorage is empty
         return []; // creating the array (empty)
     }else{
         // if you get here, localStorage has users
         let listUsers = JSON.parse(users) //parse back into an array
-        console.log(listUsers); //this is an array
+       console.log(listUsers); //this is an array
         return listUsers;
     }
 }

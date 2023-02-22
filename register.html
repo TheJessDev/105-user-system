@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/mystyle.css">
 
-    <title>User Registration</title>
+    <title>Register User</title>
 </head>
 
 <!---api.jquery.com-->
@@ -22,7 +22,7 @@
         </nav>
     </header>
 
-    <main>  <!---create inputs to add users--->
+    <main>  
         <h2>Add New User</h2>
         
         <div class="grid-container" class="form" id="form">
@@ -56,12 +56,12 @@
             </div>
             <div class="grid-child-1" class="phone">
                 <p>Phone</p>
-                <input type="text" id="txtPhone">
+                <input type="tel" id="txtPhone">
             </div>
             <div class="payment">
                 <p>Payment*</p>
                 <select id="selPayment">
-                    <option value="" selected disabled>--Choose method--</option>
+                    <option value="" selected >--Choose method--</option>
                     <option value="cash">Cash</option>
                     <option value="credit">Credit Card</option>
                     <option value="paypal">Paypal</option>
@@ -73,7 +73,7 @@
                 <input type="color" id="selColor">
             </div>
         
-            <button  class="btn" id="btnAdd">Add User</button>
+            <button  class="btn" id="btnAdd" onclick="register()">Add User</button>
             
 
         </div>  
@@ -88,6 +88,7 @@
 
     <script src="scripts/storeManager.js"></script>
     <script src="scripts/register.js"></script>
+   
 
 </body>
 </html>

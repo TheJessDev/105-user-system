@@ -1,0 +1,8 @@
+#alert-error{
+    background-color: rgb(246, 134, 134);
+    border: 1px solid rgb(181, 3, 3);
+}
+
+.hide{
+    display: none;
+}
