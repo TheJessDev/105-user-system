@@ -10,7 +10,7 @@ function saveUser(user){
     localStorage.setItem("users", save); // this fn SENDS elements TO localStorage
 }
 
-function readUsers(){
+function readUsers(){ 
     let users = localStorage.getItem("users"); // this fn GETS elements FROM localStorage
     //console.log(users); //this is a string
     if( ! users){ // NOT users? then...

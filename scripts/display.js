@@ -11,7 +11,6 @@ function display(usersArray){
             <td>${user.firstName}</td>
             <td>${user.lastName}</td>
             <td style="background-color:${user.color}"></td>
-
         </tr>`;
         //append() the tr into the HTML
         TABLE.append(tr);
@@ -26,4 +25,4 @@ function init(){
     display(users);
 
 }
-window.onload=init;
+window.onload=init; 

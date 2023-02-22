@@ -13,7 +13,7 @@ function User(e,pw,f,l,a,g,ph,py,c){
     this.color = c;
 }
 //display the user on console
-//console.log(User);
+//console.log(User); 
 
 
 function validation(user){ 
